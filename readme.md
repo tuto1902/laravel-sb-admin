@@ -1,4 +1,4 @@
-## Laravel PHP Starter Project with 
+## Laravel PHP Starter Project with SB Admin 2 Templates
 
 Laravel is a web application framework with expressive, elegant syntax. 
 
