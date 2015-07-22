@@ -12,5 +12,6 @@ var elixir = require('laravel-elixir');
  */
 
 elixir(function(mix) {
-    mix.sass('app.scss');
+  mix.sass('app.scss');
+  mix.less(['sb-admin-2.less', 'mixins.less', 'variables.less'], 'public/dist/css/sb-admin-2.css');
 });
