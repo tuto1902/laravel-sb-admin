@@ -364,3 +364,21 @@ table.dataTable thead .sorting:after {
         }
     }
 }
+
+.panel-blue {
+  border-color: @brand-primary;
+  .panel-heading {
+    border-color: @brand-primary;
+    color: white;
+    background-color: @brand-primary;
+    &:hover {
+      background-color: darken(@brand-primary, 15%);
+    }
+  }
+  a {
+    color: @brand-primary;
+    &:hover {
+      color: darken(@brand-primary, 15%);
+    }
+  }
+}

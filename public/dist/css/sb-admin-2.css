@@ -113,7 +113,7 @@ body {
   transition: all .5s;
 }
 .btn-primary.btn-outline {
-  color: #428bca;
+  color: #00b8f9;
 }
 .btn-success.btn-outline {
   color: #5cb85c;
@@ -273,6 +273,23 @@ table.dataTable thead .sorting:after {
 }
 .panel-yellow a:hover {
   color: #df8a13;
+}
+.panel-blue {
+  border-color: #00b8f9;
+}
+.panel-blue .panel-heading {
+  border-color: #00b8f9;
+  color: white;
+  background-color: #00b8f9;
+}
+.panel-blue .panel-heading:hover {
+  background-color: #007fad;
+}
+.panel-blue a {
+  color: #00b8f9;
+}
+.panel-blue a:hover {
+  color: #007fad;
 }
 
 
